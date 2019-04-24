@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<title>Landing Page</title> 
+<!-- css -->
+<link rel="stylesheet" href="css/styles.css">
+<!-- jquery && js -->
+<script type="text/javascript" src="js/functions.js"></script>
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head> 
+<!-- favicon -->
+<link rel="icon" href="img/favicon.png" sizes="16x16">
+<body> 
+	<section>
+		<div class="top-menu">
+			<div class="logo">
+				<a href="#"><img src="img/logo1.png" alt="logo"/></a>
+			</div>
+			<div>
+				<ul id="menu-items" class="menu-items">
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#highlights">Highlights</a></li>
+				  <li><a href="#contacts">Contacts</a></li>
+				  <li><a href="javascript:void(0);" class="icon-mobile" onclick="menuMobile()"><span class="fa fa-bars"></span></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</section>
+	<section>
+		<div class="banner" id="home">
+			<div class="banner-img">
+				<img src="img/banner.png"/>
+			</div>	
+			<div class="banner-content">
+				<h1>Lorem ipsum dolor</h1>
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus ipsum, condimentum eget accumsan sed, luctus vitae risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. </h4>
+				<a href="#" class="button">View More</a>
+			</div>	
+		</div>
+	</section>
+	<section>
+		<div class="cards-title" id="highlights">
+			<h1>Highlights Cards</h1>
+		</div>
+		<div class="card-container">
+			<div class="card">
+				<img src="img/card1.jpg" alt=""/>
+				<div class="card-content">
+					<h4>Card Title</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus ipsum, condimentum eget accumsan sed, luctus vitae risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum metus eget rhoncus aliquet.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/card1.jpg" alt=""/>
+				<div class="card-content">
+					<h4>Card Title</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus ipsum, condimentum eget accumsan sed, luctus vitae risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum metus eget rhoncus aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum metus eget rhoncus aliquet.</p>
+				</div> 
+			</div>
+			<div class="card">
+				<img src="img/card1.jpg" alt=""/>
+				<div class="card-content">
+					<h4>Card Title</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus ipsum, condimentum eget accumsan sed, luctus vitae risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum metus eget rhoncus aliquet.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="contacts-title" id="contacts">
+			<h1>Contacts</h1>
+		</div>
+		<div class="contacts-container">
+			<div class="contacts-form">
+				<form>
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname">
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname">	
+				    <label for="lname">Email</label>
+				    <input type="text" id="lname" name="lastname">			    
+				    <label for="lname">Message</label>
+				  	<textarea rows="4" cols="50"></textarea>
+				    <button type="submit" form="nameform" value="Submit" class="button">Submit</button>
+			  	</form>
+			</div>
+			<div class="map">
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="355" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Conselheiro%20Fernando%20de%20Sousa%2019%20-%206%C2%BA%201070-072%20Lisboa%2C%20Portugal&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;/*width:600px;*/}.gmap_canvas {overflow:hidden;background:none!important;height:500px;/*width:600px;*/}</style></div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="social-media">
+			<span class="fa fa-youtube"></span>
+			<span class="fa fa-twitter"></span>
+			<span class="fa fa-linkedin"></span>
+			<span class="fa fa-facebook-official"></span>
+		</div>
+		<p>2018 © Landing Page • All rights reserved • <a href="#">Legal information</a></p>
+	</footer>
+	<button onclick="topFunction()" id="back-top" class="back-top"title="back top"><span class="fa fa-angle-double-up"></span></button>
+</body>
+</hmtl>
